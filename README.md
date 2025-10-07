@@ -1,5 +1,4 @@
-## [Hi there!](https://gabrielo22.github.io/GabrielO22/)
-Please check out my portfolio!
+[My Website](https://gabrielo22.github.io/GabrielO22/)
 
 <!--
 **GabrielO22/GabrielO22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
