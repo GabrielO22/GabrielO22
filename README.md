@@ -1,4 +1,4 @@
-#https://gabrielo22.github.io/GabrielO22/# Hi there 👋
+## [Hi there!](https://gabrielo22.github.io/GabrielO22/)
 Please check out my portfolio!
 
 <!--
