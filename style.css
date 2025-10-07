@@ -1,0 +1,184 @@
+html {
+    background: linear-gradient(45deg, rgba(17, 24, 39, 1), rgba(9, 151, 113, 1));
+    color: rgba(255, 255, 255, 1);
+    height: 100%;
+    font-family: 'comic sans ms', sans-serif;
+    font-size: 30px;
+
+}
+
+nav {
+    background: linear-gradient(315deg, rgba(17, 24, 39, 1), rgba(9, 151, 113, 1));
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: 5%;
+}
+
+header {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.purple-gradient-text {
+    background: radial-gradient(circle, rgba(100, 110, 190, 1), rgba(230, 90, 60, 1));
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+.navigation-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.navigation-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-image {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.socials h2 {
+    margin: 0px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.socials button, .socials a {
+    background: transparent;
+    width: 140px;
+    height: 140px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.socials button img, .socials a img {
+    width: 80px;
+    height: 80px;
+}
+
+.contact-form h2 {
+    margin: 0px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.resume-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.resume-short-list, .resume-list-with-details {
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.resume-main * {
+    text-align: center;
+}
+
+.resume-main h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.resume-main h3 {
+    font-size: 15px;
+}
+
+.resume-main p {
+    font-size: 12px;
+}
+
+.resume-short-list li {
+    margin: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.resume-sub-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-short-list {
+    width: 100%;
+}
+
+.date {
+    font-style: italic;
+}
