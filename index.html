@@ -18,29 +18,52 @@ EMAIL: oharag@uci.edu
   <body>
 
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-      <a href="resume.html">Resume</a>
+      &LeftAngleBracket;<a href="index.html">Home</a>/
+      <a href="about.html">About Me</a>/
+      <a href="projects.html">Projects</a>/
+      <a href="contact.html">Contact</a>/
+      <a href="resume.html">Resume</a>&RightAngleBracket;
     </nav>
 
-    <header class="purple-gradient-text">
-      <h1>Gabriel O'Hara Portfolio</h1>
+    <header class="purple-title home-name">
+      <h1>GABRIEL O'HARA</h1>
+      <p>Aspiring Software Engineer</p>
+      <p>UC Irvine | Class of '26</p>
     </header>
 
     <main>
-      <h2>Welcome to My Portfolio</h2>
-      <p>This is the home page of my portfolio website. Here you can find information about me, my projects, and how to contact me.</p>
-      <p>Use the navigation links above or images below to explore different sections of my portfolio.</p>
-
-      <div class="navigation-images">
-        <img src="images/headshot2.jpeg" alt="About Me" class="nav-image" onclick="location.href='about.html'">
-        <img src="images/projects.jpg" alt="Projects" class="nav-image" onclick="location.href='projects.html'">
-        <img src="images/contact.jpg" alt="Contact" class="nav-image" onclick="location.href='contact.html'">
-        <img src="images/resume.png" alt="Resume" class="nav-image" onclick="location.href='resume.html'">
+      <div class="hover-buttons home-buttons">
+        <a class="hover-button" href="about.html">
+          <img src="images/about-me.png" alt="About Me">
+          <span class="label">
+            <strong>About Me</strong>
+            <small>read more about me</small>
+          </span>
+        </a>
+        <a class="hover-button" href="projects.html">
+          <img src="images/projects.png" alt="Projects">
+          <span class="label">
+            <strong>Projects</strong>
+            <small>check out some of my projects</small>
+          </span>
+        </a>
+        <a class="hover-button" href="contact.html">
+          <img src="images/contact.png" alt="Contact Me">
+          <span class="label">
+            <strong>Contact Me</strong>
+            <small>get in contact and check out my socials</small>
+          </span>
+        </a>
+        <a class="hover-button" href="resume.html">
+          <img src="images/resume.png" alt="Resume">
+          <span class="label">
+            <strong>Resume</strong>
+            <small>check out my resume</small>
+          </span>
+        </a>
       </div>
     </main>
+
 
     <footer>
       <p>&copy; 2025 Gabriel O'Hara. All rights reserved</p>

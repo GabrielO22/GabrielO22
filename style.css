@@ -1,21 +1,23 @@
-html {
-    background: linear-gradient(45deg, rgba(17, 24, 39, 1), rgba(9, 151, 113, 1));
-    color: rgba(255, 255, 255, 1);
-    height: 100%;
-    font-family: 'comic sans ms', sans-serif;
-    font-size: 30px;
+* {
+    font-family:'Merriweather', sans-serif;
+    
+}
 
+html {
+    background-color: #12033C;
+    color: #FFFFFF;
+    height: 100%;
+    font-size: 30px;
 }
 
 nav {
-    background: linear-gradient(315deg, rgba(17, 24, 39, 1), rgba(9, 151, 113, 1));
     text-align: center;
     font-size: 20px;
     padding: 20px;
 }
 
 nav a {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
     text-decoration: none;
     margin: 5%;
 }
@@ -34,26 +36,26 @@ footer {
     width: 100%;
 }
 
-.purple-gradient-text {
-    background: radial-gradient(circle, rgba(100, 110, 190, 1), rgba(230, 90, 60, 1));
-    background-clip: text;
-    color: rgba(0, 0, 0, 0);
+.purple-title {
+    color: #CAE9FD;
     text-align: center;
+    margin-top: 20px;
 }
 
-.navigation-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
+.home-name {
+    font-size: 54px;
+    letter-spacing: 0.5rem;
 }
 
-.navigation-images img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.home-name h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.home-name p {
+    font-size: 28px;
+    margin: 10px;
+    letter-spacing: 0.2rem;
 }
 
 .about-image {
@@ -67,16 +69,107 @@ footer {
 
 .about-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .about-text {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
     font-size: 20px;
+}
+
+.hover-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 850px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.home-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.hover-button {
+    position: relative;
+    width: 250px;
+    display: block;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.hover-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hover-button .label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    text-align: center;
+    padding: 10%;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+    transform: translateY(6%);
+    transition: opacity .25s ease, transform .25s ease;
+}
+
+.hover-button .label strong {
+    font-size: 0.75m;
+}
+
+.hover-button .label small {
+    font-size: 0.5rem;
+    opacity: 0.95;
+}
+
+.hover-button:hover .label, .hover-button:focus-visible .label {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hover-button:focus-visible {
+    outline: 3px solid #CAE9FD;
+    outline-offset: 4px;
+    border-radius: 99px;
+}
+
+.hover-button:hover {
+    transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hover-button, .hover-button .label {
+        transition: none;
+    }
 }
 
 .socials {
@@ -86,7 +179,9 @@ footer {
 }
 
 .socials h2 {
-    margin: 0px;
+    margin: 10px;
+    font-size: 36px;
+    text-align: center;
 }
 
 .social-buttons {
@@ -121,7 +216,10 @@ footer {
 }
 
 .contact-form h2 {
-    margin: 0px;
+    margin: 10px;
+    margin-top: 45px;
+    font-size: 36px;
+    text-align: center;
 }
 
 .contact-form form {
