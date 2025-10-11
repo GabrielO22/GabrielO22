@@ -7,8 +7,7 @@ html {
     background-color: #12033C;
     color: #FFFFFF;
     height: 100%;
-    font-size: clamp(16px, 2.2vw, + 10px, 20px);
-    font-size: 30px;
+    font-size: 18px;
 }
 
 nav {
@@ -184,13 +183,6 @@ footer {
     transform: translateY(-4px);
 }
 
-@media (hover: none) and (pointer: coarse) and (any-hover: none) and (any-pointer: coarse) and (max-width: 600px) {
-    .hover-button .label{
-        opacity: 1;
-        transform: none;
-    }
-}
-
 .socials {
     display: flex;
     flex-direction: column;
@@ -305,4 +297,11 @@ footer {
 .date {
     font-style: italic;
     text-align: center;
+}
+
+@media (hover: none) and (pointer: coarse) and (any-hover: none) and (any-pointer: coarse) and (max-width: 901px) {
+    .hover-button .label {
+        opacity: 1;
+        transform: none;
+    }
 }
