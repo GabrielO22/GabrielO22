@@ -1,4 +1,4 @@
-[My Website](https://gabrielo22.github.io/GabrielO22/)
+Please visit [my website](https://gabrielo22.github.io/GabrielO22/) to see more info about me and project's I've worked on!
 
 <!--
 **GabrielO22/GabrielO22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
